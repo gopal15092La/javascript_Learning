@@ -18,22 +18,22 @@ let isLoggedIn = false;
 // console.log(x);
 
 
-// datatypes are :-
+//********************************* datatypes are :-
 
-// number => upto 2 to power 53
-// bigint => for large value storing
-// string => ""
-// boolean => true/false
+//*) number => upto 2 to power 53
+//*)bigint => for large value storing (BIG int)
+//*) string => ""
+//*) boolean => true/false
 
-// null => Stand ALone value{An OBJECT} ***imp***
+//*) null => Stand ALone value{An OBJECT} ***imp***
 
-// undefined => varibale declared, but no values assigned to it
+//*) undefined => varibale declared, but no values assigned to it
 
-// symbol => unique catagorization ke liye
+//*) symbol => unique catagorization ke liye
 
-// object
+//*) object
 
 console.log(typeof "Gopal")
 console.log(typeof 233)
-console.log(typeof null) // object
-console.log(typeof undefined) // undefined
+console.log(typeof null) // ******** object *************
+console.log(typeof undefined) // ************* undefined ************
