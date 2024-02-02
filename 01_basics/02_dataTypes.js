@@ -1,12 +1,13 @@
-"use strict"; // treat all JS code as newer version
+"use strict"; //*) treat all JS code as newer version
 
-// alert(5+8) we are using node.js, not browser
+// *) "alert-statement"___alert(5+8) we are using node.js, not browser
 
-console.log(3
-    +
-    2) // Code Readability should be HIGH ***
+// console.log(3
+//     +
+//     2) // *) Code Readability should be HIGH ***
+// *) if we write in same-lines -: USE SEMICOLON
 
-// DataType examples and DataTypes
+// *******************  DataType examples and DataTypes   ***************
 let name = "Hitesh";
 let age = 18;
 let isLoggedIn = false;

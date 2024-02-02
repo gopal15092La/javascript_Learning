@@ -1,4 +1,6 @@
 // storing some info. of an USER in memory space
+// container config done ---> then ---> "PUSH"
+// path -> 01_basics/01_variables.js
 /*
     prefer not to use "var"
     beacause issue in 'Block scope' & 'functional scope'
@@ -17,3 +19,4 @@ accountPassword = "Bapo123@"
 accountCity = "ganjam"
 accountState  ="Odisha"
 console.table([accountId, accountEmail, accountPassword, accountCity,accountState ])
+console.log(5*6);
