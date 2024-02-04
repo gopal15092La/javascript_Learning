@@ -40,3 +40,30 @@ variable = String(score);
 // console.log(variable);
 
 //...........................................ENDS......................................
+//................................OPERATIONS......................................
+let value = 3
+let negvalue = -value
+// console.log(negvalue);
+
+// console.log(5**3);
+// console.log(5*3);
+// console.log(5%3);
+
+let str1 = "Gopal"
+let str2 = "Krushna"
+// console.log("answer is -->" + str1 + str2);
+
+//********** important {conversion into Primitive data types as per some ECMA script rules} */
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+
+// console.log("Gopal" + false);
+
+//*) .............. prefix & Postfix increament operator.........................................
+let x = 5
+console.log(x++);
+console.log(x);
+// console.log(++x);
