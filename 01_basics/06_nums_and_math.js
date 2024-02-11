@@ -41,4 +41,20 @@ const hundreds = 1000000
 
 //+++++++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++++++++++
 
-console.log(Math)
+// console.log(Math)
+// console.log(Math.abs(-4));
+// console.log(Math.round(2.45));
+// console.log(Math.ceil(4.1));
+// console.log(Math.floor(2.5));
+
+// *) Note -> math.random() always returns value between [0,1]
+console.log(Math.random());
+console.log(Math.random()*10 + 1)
+
+
+//*) Note in case while using "RANDOM" ; we may have some restriction about "min" , "max"; value in range;
+// Then the FOLLOWING FORMULA IS BEING USED;
+const min = 10
+const max = 20
+// formula :
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
